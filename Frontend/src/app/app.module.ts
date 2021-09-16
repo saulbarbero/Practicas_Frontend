@@ -8,6 +8,10 @@ import { PrincipalComponent } from './component/principal/principal.component';
 import { HeaderComponent } from './component/header/header.component';
 import { FooterComponent } from './component/footer/footer.component';
 import { TablaComponent } from './component/tabla/tabla.component';
+import { CursosComponent } from './component/cursos/cursos.component';
+import { PublicacionesComponent } from './component/publicaciones/publicaciones.component';
+import { Cursos2Component } from './component/cursos2/cursos2.component';
+
 
 
 @NgModule({
@@ -17,7 +21,10 @@ import { TablaComponent } from './component/tabla/tabla.component';
     PrincipalComponent,
     HeaderComponent,
     FooterComponent,
-    TablaComponent
+    TablaComponent,
+    CursosComponent,
+    PublicacionesComponent,
+    Cursos2Component
   ],
   imports: [
     BrowserModule,
