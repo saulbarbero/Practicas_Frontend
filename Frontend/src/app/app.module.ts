@@ -11,6 +11,7 @@ import { TablaComponent } from './component/tabla/tabla.component';
 import { CursosComponent } from './component/cursos/cursos.component';
 import { PublicacionesComponent } from './component/publicaciones/publicaciones.component';
 import { Cursos2Component } from './component/cursos2/cursos2.component';
+import { AppRoutingModule } from './app-routing.module';
 
 
 
@@ -28,7 +29,8 @@ import { Cursos2Component } from './component/cursos2/cursos2.component';
   ],
   imports: [
     BrowserModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
