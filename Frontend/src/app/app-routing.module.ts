@@ -4,6 +4,7 @@ import { CursosComponent } from "./component/cursos/cursos.component";
 import { LoginComponent } from "./component/login/login.component";
 import { PrincipalComponent } from "./component/principal/principal.component";
 import { PublicacionesComponent } from "./component/publicaciones/publicaciones.component";
+import { RegistroComponent } from "./component/registro/registro.component";
 
 
 const app_routes: Routes = [
@@ -22,6 +23,10 @@ const app_routes: Routes = [
     {
         path: 'Cursos',
         component:CursosComponent
+    },
+    {
+        path: 'Registro',
+        component:RegistroComponent
     },
 
     {

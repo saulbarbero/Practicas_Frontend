@@ -13,6 +13,7 @@ import { PublicacionesComponent } from './component/publicaciones/publicaciones.
 import { Cursos2Component } from './component/cursos2/cursos2.component';
 import { AppRoutingModule } from './app-routing.module';
 import { NosotrosComponent } from './component/nosotros/nosotros.component';
+import { RegistroComponent } from './component/registro/registro.component';
 
 
 
@@ -27,7 +28,8 @@ import { NosotrosComponent } from './component/nosotros/nosotros.component';
     CursosComponent,
     PublicacionesComponent,
     Cursos2Component,
-    NosotrosComponent
+    NosotrosComponent,
+    RegistroComponent
   ],
   imports: [
     BrowserModule,
