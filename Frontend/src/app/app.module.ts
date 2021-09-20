@@ -12,6 +12,7 @@ import { CursosComponent } from './component/cursos/cursos.component';
 import { PublicacionesComponent } from './component/publicaciones/publicaciones.component';
 import { Cursos2Component } from './component/cursos2/cursos2.component';
 import { AppRoutingModule } from './app-routing.module';
+import { NosotrosComponent } from './component/nosotros/nosotros.component';
 
 
 
@@ -25,7 +26,8 @@ import { AppRoutingModule } from './app-routing.module';
     TablaComponent,
     CursosComponent,
     PublicacionesComponent,
-    Cursos2Component
+    Cursos2Component,
+    NosotrosComponent
   ],
   imports: [
     BrowserModule,
