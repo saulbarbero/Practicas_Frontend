@@ -14,8 +14,10 @@ import { Cursos2Component } from './component/cursos2/cursos2.component';
 import { AppRoutingModule } from './app-routing.module';
 import { NosotrosComponent } from './component/nosotros/nosotros.component';
 import { RegistroComponent } from './component/registro/registro.component';
-
-
+import { MatTableModule } from '@angular/material/table';
+import {FormsModule} from '@angular/forms';
+import { MatInputModule } from '@angular/material/input';
+import { MatButtonModule } from '@angular/material/button';
 
 @NgModule({
   declarations: [
@@ -34,7 +36,11 @@ import { RegistroComponent } from './component/registro/registro.component';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MatTableModule,
+    MatInputModule,
+    MatButtonModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
