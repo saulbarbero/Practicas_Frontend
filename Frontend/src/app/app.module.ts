@@ -18,6 +18,7 @@ import { MatTableModule } from '@angular/material/table';
 import {FormsModule} from '@angular/forms';
 import { MatInputModule } from '@angular/material/input';
 import { MatButtonModule } from '@angular/material/button';
+import { ContraComponent } from './component/contra/contra.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { MatButtonModule } from '@angular/material/button';
     PublicacionesComponent,
     Cursos2Component,
     NosotrosComponent,
-    RegistroComponent
+    RegistroComponent,
+    ContraComponent
   ],
   imports: [
     BrowserModule,

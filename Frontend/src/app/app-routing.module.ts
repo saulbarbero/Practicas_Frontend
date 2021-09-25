@@ -1,6 +1,8 @@
 import { Component, NgModule } from "@angular/core";
 import { Routes, RouterModule } from "@angular/router";
+import { ContraComponent } from "./component/contra/contra.component";
 import { CursosComponent } from "./component/cursos/cursos.component";
+import { Cursos2Component } from "./component/cursos2/cursos2.component";
 import { LoginComponent } from "./component/login/login.component";
 import { PrincipalComponent } from "./component/principal/principal.component";
 import { PublicacionesComponent } from "./component/publicaciones/publicaciones.component";
@@ -27,6 +29,14 @@ const app_routes: Routes = [
     {
         path: 'Registro',
         component:RegistroComponent
+    },
+    {
+        path : 'Contra',
+        component:ContraComponent
+    },
+    {
+        path : 'Profesores',
+        component:Cursos2Component
     },
 
     {
