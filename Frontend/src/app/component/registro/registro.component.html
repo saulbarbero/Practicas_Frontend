@@ -1,10 +1,9 @@
-<input type='checkbox' id='form-switch'>
+cd <input type='checkbox' id='form-switch'>
 <form id='login-form' action="" method='post'>
   <h1>Iniciar Sesión</h1>
-  <input type="text" placeholder="Registro Académico o CUI" required>
-  <input type="password" placeholder="Contraseña" required>
-  <input type="password" placeholder="Confirmar Contraseña" required>
-  <button type='submit'>Iniciar Sesión</button>
+  <input type="text" placeholder="Registro Académico o CUI" required name="registroAcademico" [(ngModel)]="registroAcademico">
+  <input type="password" placeholder="Contraseña" required required name="contraInicio" [(ngModel)]="contraInicio">
+  <button type='submit' (click)="ingresarLogin()">Iniciar Sesión</button>
   <label for='form-switch'><span>¿No tienes una cuenta? Registro</span></label>
   <p></p>
   <label routerLink='/Contra' ><span>Recupera tú contraseña </span></label>
