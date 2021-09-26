@@ -19,6 +19,7 @@ import {FormsModule} from '@angular/forms';
 import { MatInputModule } from '@angular/material/input';
 import { MatButtonModule } from '@angular/material/button';
 import { ContraComponent } from './component/contra/contra.component';
+import {MatIconModule} from '@angular/material/icon';
 
 @NgModule({
   declarations: [
